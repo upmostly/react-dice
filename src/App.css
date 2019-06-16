@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px + 2vmin);
+  color: white;
+}
+
+.die {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.button {
+  margin-top: 20px;
+  outline: none;
+  animation: button-gradient 25s ease infinite;
+  background-image: -webkit-linear-gradient(65deg,#21d4fd,#b721ff 50%,#017eff);
+  background-image: linear-gradient(25deg,#21d4fd,#b721ff 50%,#017eff);
+  background-size: 500%;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 0 #5664a7;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 150px;
+}
+
+.button:hover {
+  box-shadow: 0 2px 0 0 #5664a7;
+}
+
+.button:active {
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.25), 0 1px 2px rgba(0,0,0,0.05);
+}
